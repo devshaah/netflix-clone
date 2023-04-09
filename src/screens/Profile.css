@@ -1,0 +1,103 @@
+body{
+background: black;
+}
+
+.profile{
+   height: 100vh; 
+   background-color: black;
+   color: white;
+   /* padding-bottom: 10vh; */
+}
+
+.profile_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+    max-width: 800px;
+}
+
+.profile_body>h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.profile_info{
+    display: flex;
+}
+
+
+.profile_info>img{
+    height: 5rem;
+}
+
+
+.profile_details{
+    margin-left: 30px;
+    width: 100%;
+}
+
+.profile_details>h4{
+    background: gray;
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.profile_plans>h3{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #282c2d
+}
+
+
+
+.plan_box{
+    padding: 20px;
+}
+
+.plan_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.subscribe{
+    outline-width: 0;
+    border: 0;
+    color: white;
+    background-color: #e50914;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.subscribed{
+    outline-width: 0;
+    border: 0;
+    color: white;
+    background-color: rgb(150, 144, 144);
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+   
+    cursor: pointer;
+}
+
+.profile_signout{
+    width: 100%;
+    outline-width: 0;
+    border: none;
+    color: white;
+    background-color: #e50914;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
